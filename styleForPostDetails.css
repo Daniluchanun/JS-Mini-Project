@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#divForFullInfoOfPost{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px 50px 100px 50px;
+    height: 300px;
+    width: 40vw;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#MainDivForUserComments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 30px 50px 50px 50px;
+}
+.postComments{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

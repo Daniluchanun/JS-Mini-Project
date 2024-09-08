@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divUsers {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.btnForEachUser {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    background: #232323;
+    border-radius: 4px;
+}
+
+#divForUsersId {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    width: 500px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
